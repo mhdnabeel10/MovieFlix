@@ -1,0 +1,45 @@
+.row{
+    margin-left: 20px;
+    color: #fff;
+}
+.posters{
+    display: flex;
+    padding: 20px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    
+
+}
+.posters::-webkit-scrollbar{
+    display: none;
+}
+.poster{
+    cursor: pointer;
+    max-height: 250px;
+    margin-right: 10px;
+
+}
+.smallposter{
+    cursor: pointer;
+    max-height: 150px;
+    margin-right: 10px;
+}
+
+.poster:hover{
+    scale: 1.1;
+}
+.smallposter:hover{
+    scale: 1.1;
+}
+.close-btn{
+    background-color: #111;
+    color: white;
+    border-radius: 4px;
+    width: 15px;
+    
+}
+.close-btn:hover{
+    background-color: white;
+    color: #111;
+    font-weight: 600;
+}
